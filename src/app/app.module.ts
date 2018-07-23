@@ -5,12 +5,13 @@ import { FormComponent } from './form/form.component';
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppComponent }  from './app.component';
-import { UserComponent } from './user/user.component';
+import { VoteComponent } from "src/app/arrays and strings/vote.component";
+//import {VoteComponent} from './vote.component';
 @NgModule({
   declarations: [
     AppComponent,
     FormComponent,
-    UserComponent
+    VoteComponent
   ],
   imports: [
     BrowserModule,
