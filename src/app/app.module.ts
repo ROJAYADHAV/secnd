@@ -6,12 +6,16 @@ import { FormComponent } from './form/form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppComponent }  from './app.component';
 import { VoteComponent } from "src/app/arrays and strings/vote.component";
+import { TodoformComponent } from './form/todoform/todoform.component';
+import { EventsComponent } from './events/events.component';
 //import {VoteComponent} from './vote.component';
 @NgModule({
   declarations: [
     AppComponent,
     FormComponent,
-    VoteComponent
+    VoteComponent,
+    TodoformComponent,
+    EventsComponent
   ],
   imports: [
     BrowserModule,
