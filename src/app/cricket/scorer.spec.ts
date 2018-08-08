@@ -32,4 +32,8 @@ describe('Testing Scorer Class',()=>{
         scorer.calculateScore([2, 3, 4, 5, 5, 6, 0, 1]);
         expect(scorer.changeStrike).toHaveBeenCalled();
     })
+    it('Should calculate the player scorer',()=>{
+        
+    })
+    
 });
